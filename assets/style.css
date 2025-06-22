@@ -33,7 +33,7 @@ body {
   font-size: 50px;
   grid-area: title;
   text-align: center;
-  color: black;
+  color: #01121e;
   border-radius: 30px;
 }
 
@@ -43,7 +43,7 @@ body {
   padding: 16px;
   font-size: 24px;
   text-align: right;
-  color: #0e746d;
+  color: #4e98cb;
 }
 
 .new-project {
@@ -51,7 +51,7 @@ body {
   padding: 8px;;
   font-size: 24px;
   text-align: right;
-  color: #0e746d;
+  color: #4e98cb;
 }
 
 .sidebar {
@@ -61,7 +61,7 @@ body {
   bottom: 0;
   grid-area: side;
   text-align: center;
-  background-color:  #a8f3ef;
+  background-color:  #d3ebfb;
   width: 140px;
   height: 100vh;
   padding: 0 1.7rem;
@@ -115,7 +115,7 @@ body {
 
 .menu a i {
   font-size: 1.2rem;
-  color:  #0e746d;
+  color:  #4e98cb;
   padding: 10px;
 }
 
@@ -129,7 +129,6 @@ body {
 }
 
 .card-container {
-  grid-area: card;
   grid-area: card-container;
   display: grid;
   grid-template-rows: 1fr 1fr;
@@ -137,13 +136,14 @@ body {
 }
 
 .card {
-  background: #a8f3ef;
-  border: 1px solid #4A4A4A;
+  background: #cbe7fb;
+  border: 1px solid #01121e;
   border-radius: 15px;
   padding: 16px;
-  margin: 16px;
+  margin: 24px;
   text-align: center;
   font-size: 30px;
+  color: #01121e;
 }
 
 .card li {

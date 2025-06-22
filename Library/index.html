@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <script src="https://kit.fontawesome.com/75fcca5184.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+        <div class="container">
+          <header>
+            <h1><i class="fas fa-book-open"></i>Library</h1>
+            <button class="new-book-btn" id="newBookBtn">
+              <i class="fas fa-plus"></i> New Book
+            </button>
+          </header>
+          
+          <main>
+            <div class="books-grid" id="booksGrid">
+            </div>
+          </main>
+        </div>
+        
+        <div class="popup" id="bookPopUp">
+          <div class="popup-content">
+            <div class="popup-header">
+              <h2><i class="fas fa-book"></i>Add New Book</h2>
+              <button class="close-btn" id="closePopUp">
+                <i class="fas fa-times"></i>
+              </button>
+            </div>
+            <form id="bookForm">
+              <div class="form-group">
+                <label for="bookTitle">Title *</label>
+                <input type="text" id="bookTitle" name="title" required>
+              </div>
+              <div class="form-group">
+                <label for="bookAuthor">Author *</label>
+                <input type="text" id="bookAuthor" name="author" required>
+              </div>
+              <div class="form-group">
+                <label for="bookPages">Pages</label>
+                <input type="number" id="bookPages" name="pages">
+              </div>
+              <div class="form-group checkbox-group">
+                <label class="checkbox-label">
+                  <input type="checkbox" id="bookRead" name="read">
+                  <span class="checkmark"></span>I have read this book
+                </label>
+              </div>
+              <div class="form-actions">
+                <button type="button" class="btn btn-secondary" id="cancelBtn">Cancel</button>
+                <button type="submit" class="btn btn-primary">
+                  <i class="fas fa-plus"></i>Add Book
+                </button>
+              </div>
+            </form>        
+
+        
+</body>
+</html>

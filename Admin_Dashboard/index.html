@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+        <header class="header">
+          <div class="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" id="searchInput" placeholder="Search...">
+            <button>Search</button>
+          </div>
+          <div class="greeting">
+            <h2>Hi there,</h2>
+            <h3>User (@user)</h3>
+          </div>
+          <div class="profile-top">
+            <i class="fa fa-bell"></i>
+            <img src="https://cdn.pixabay.com/photo/2019/08/11/18/59/icon-4399701_1280.png" width ="70" height = "70";>
+            <span>User</span>
+          </div>
+          <div class="profile-buttons">
+            <button class="btn-primary">New</button>
+            <button class="btn-primary">Upload</button>
+            <button class="btn-primary">Share</button>
+          </div>
+        </header>
+      
+        <section class="sidebar">
+            <div class="logo">
+            <img src="https://cdn.pixabay.com/photo/2023/01/31/01/50/crown-7756927_960_720.png" width="100" height="100";>
+            </div>
+            <div class="sidebar-header">
+              <h1>DASHBOARD</h1>
+            </div>
+            <div class="navigation">
+              <ul>
+                <li>
+                  <a href="home.html" class="nav-link"><i class="fa fa-fw fa-home"></i>Home</a>
+                </li>
+                <li>
+                  <a href="profile.html" class="nav-link"><i class="fa-solid fa-user"></i>Profile</a>
+                </li>
+                <li>
+                  <a href="messages.html" class="nav-link"><i class="fa-solid fa-message"></i>Messages</a>
+                </li>
+                <li>
+                  <a href="history.html" class="nav-link"><i class="fa-solid fa-clock-rotate-left"></i>History</a>
+                </li>
+                <li>
+                  <a href="tasks.html" class="nav-link"><i class="fa-solid fa-list-check"></i>Tasks</a>
+                </li>
+                <li>
+                  <a href="communities.html" class="nav-link"><i class="fa-solid fa-user-group"></i>Communities</a>
+                </li>
+                <br>
+                <li>
+                  <a href="settings.html" class="nav-link"><i class="fa-solid fa-gear"></i>Settings</a>
+                </li>
+                <li>
+                  <a href="support.html" class="nav-link"><i class="fa-solid fa-circle-info"></i>Support</a>
+                </li>
+                <li>
+                  <a href="privacy.html" class="nav-link"><i class="fa-solid fa-lock"></i>Privacy</a>
+                </li>
+              </ul>
+          </div>
+        </section>
+      
+        <div class="main">
+          <div class="projects-section">
+            <h2>Your Projects</h2>
+            <div class="projects-grid">
+              <div class="card project-card" data-project="awesome-projects">
+                <h3>Super Cool Project</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+              <div class="card project-card" data-project="my-stats">
+                <h3>Less Cool Project</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Consectetur adipiscing elit quisque faucibus ex sapien vitae. Ex sapien vitae pellentesque sem placerat in id. Placerat in id cursus mi pretium tellus duis. Pretium tellus duis convallis tempus leo eu aenean.</p>
+              </div>
+              <div class="card project-card" data-project="money-makers">
+                <h3>Impossible App</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Consectetur adipiscing elit quisque faucibus ex sapien vitae. Ex sapien vitae pellentesque sem placerat in id. Placerat in id cursus mi pretium tellus duis. Pretium tellus duis convallis tempus leo eu aenean.</p>
+              </div>
+              <div class="card project-card" data-project="task-manager">
+                <h3>Easy Peasy App</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Consectetur adipiscing elit quisque faucibus ex sapien vitae. Ex sapien vitae pellentesque sem placerat in id. Placerat in id cursus mi pretium tellus duis. Pretium tellus duis convallis tempus leo eu aenean.</p>
+              </div>
+              <div class="card project-card" data-project="weather-app">
+                <h3>Ad Blocker</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Consectetur adipiscing elit quisque faucibus ex sapien vitae. Ex sapien vitae pellentesque sem placerat in id. Placerat in id cursus mi pretium tellus duis. Pretium tellus duis convallis tempus leo eu aenean.</p>
+              </div>
+              <div class="card project-card" data-project="social-media">
+                <h3>Money Maker</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Consectetur adipiscing elit quisque faucibus ex sapien vitae. Ex sapien vitae pellentesque sem placerat in id. Placerat in id cursus mi pretium tellus duis. Pretium tellus duis convallis tempus leo eu aenean.</p>
+              </div>
+            </div>
+          </div>
+        
+          <div class="right-side-content">
+            <div class="card" id="announcement">
+              <h3>Announcements</h3>
+              <div id="announcements-list">
+                <div class="announcement-item">
+                  <h4>Site Maintenance</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Consectetur adipiscing elit quisque faucibus ex sapien vitae. Ex sapien vitae pellentesque sem placerat in id. .<p>
+                </div>
+                <div class="announcement-item">
+                  <h4>Community Share Day</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Consectetur adipiscing elit quisque faucibus ex sapien vitae. .<p>
+                </div>
+                <div class="announcement-item">
+                  <h4>Updated Privace Policy</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Consectetur adipiscing elit quisque faucibus ex sapien vitae. .<p>
+                </div>
+              </div>
+            </div>
+            <div class="card" id="trending">
+              <h3>Trending</h3>
+              <div class="trending-list">
+              <div class="trending-item">
+                <span class="project-name">@tegan</span>
+                <p>World Peace Builder</p>
+              </div>
+              <div class="trending-item">
+                <span class="project-name">@morgan</span>
+                <p>Super Cool Project</p>
+              </div>
+              <div class="trending-item">
+                <span class="project-name">@kendall</span>
+                <p>Life-Changing App</p>
+              </div>
+             </div>
+            </div>
+          </div>
+        </div>
+  </body>
+</html>
